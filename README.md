@@ -82,5 +82,3 @@ Freelance at <a href="https://fastwork.co/user/qwrtsdev">@Fastwork</a>
 ![Spotify Recently Played](https://spotify-recently-played-readme.vercel.app/api?user=31gzxjq56mcskpeack3wbbf7floq&count=1)
 
 </div>
-
-###
