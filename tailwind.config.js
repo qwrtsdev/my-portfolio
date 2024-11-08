@@ -1,17 +1,26 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
-  theme: {
-    extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+const config = {
+    content: [
+        "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+        "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+        "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    ],
+    theme: {
+        extend: {
+            colors: {
+                primary: '#f1f1f1',
+                secondary: '#0e0e0e',
+                blacker: '#070707',
+            },
+            fontFamily: {
+                sfm: ['sfm', 'sans-serif'],
+                sfmi: ['sfmi', 'sans-serif'],
+                sfb: ['sfb', 'sans-serif'],
+                sfbi: ['sfbi', 'sans-serif'],
+            },
+        },
     },
-  },
-  plugins: [],
+    plugins: [],
 };
+
+export default config

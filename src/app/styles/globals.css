@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'sfm';
+    /* SF-Pro Display Medium */
+    src: url('./fonts/SF-Pro-Display-Medium.woff');
+}
+
+@font-face {
+    font-family: 'sfmi';
+    /* SF-Pro Display Medium Italic */
+    src: url('./fonts/SF-Pro-Display-MediumItalic.woff');
+}
+
+@font-face {
+    font-family: 'sfb';
+    /* SF-Pro Display Bold */
+    src: url('./fonts/SF-Pro-Display-Bold.woff');
+}
+
+@font-face {
+    font-family: 'sfbi';
+    /* SF-Pro Display Bold Italic */
+    src: url('./fonts/SF-Pro-Display-MediumItalic.woff');
+}
