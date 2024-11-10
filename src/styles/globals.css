@@ -25,3 +25,18 @@
     /* SF-Pro Display Bold Italic */
     src: url('./fonts/SF-Pro-Display-MediumItalic.woff');
 }
+
+/* grain background animation - DISABLED */
+@keyframes grain {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+.grain-animation {
+    animation: grain 1s steps(3) infinite;
+}
